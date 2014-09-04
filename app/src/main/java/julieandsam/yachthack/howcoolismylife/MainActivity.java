@@ -75,7 +75,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Plays disallowed sound to indicate that TAP actions are not supported.
                 AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-//                am.playSoundEffect(Sounds.DISALLOWED);
+                am.playSoundEffect(Sounds.DISALLOWED);
             }
         });
         setContentView(mCardScroller);
@@ -128,13 +128,6 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         tts.stop();
         // Speak the text.
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
-    }
-
-    @Override
-    public boolean onGenericMotionEvent(MotionEvent event) {
-        // On any motion event (including touchpad tap), say 'Hello Glass'
-        speak("Awesome!");
-        return true;
     }
 
 }
