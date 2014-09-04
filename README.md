@@ -7,4 +7,4 @@ Simply download the .APK [here](https://github.com/samheather/HowCoolIsMyLife/re
 
 'adb install HowCoolIsMyLife.apk'
 
-*Check out the video here: http://youtu.be/xe0LNsSmGuQ*
+**Check out the video here: http://youtu.be/xe0LNsSmGuQ**
