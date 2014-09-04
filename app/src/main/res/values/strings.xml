@@ -5,4 +5,6 @@
     <string name="title_activity_main">How Cool is My Life?</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="glass_voice_trigger">How cool is my life?</string>
+
 </resources>
